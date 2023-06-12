@@ -1,0 +1,19 @@
+/* fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Pacifico&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* adding component classes */
+@layer components {
+    .card { 
+        background-color: theme('colors.white');
+        border-radius: theme('borderRadius.lg');
+        padding: theme('spacing.6');
+        box-shadow: theme('boxShadow.xl');
+    }
+    /* ... */
+  }
